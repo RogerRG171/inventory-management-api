@@ -42,7 +42,7 @@ export const getDashboardMetrics = async (
       amount: item.amount.toString(),
     }))
 
-    res.status(200).json({
+    res.json({
       popularProducts,
       salesSummary,
       purchaseSummary,

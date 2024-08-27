@@ -34,7 +34,7 @@ export const createProduct = async (
         name,
         price,
         stockQuantity,
-	rating
+        rating,
       },
     })
 
